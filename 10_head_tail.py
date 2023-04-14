@@ -8,5 +8,5 @@ import random
 payer=input("Enter the names\n")
 a=payer.split(", ")
 print(a)
-b=random.randint(0,len(a))
+b=random.randint(0,len(a)-1)
 print(a[b])
